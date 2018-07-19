@@ -1,0 +1,24 @@
+.input-box{
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	background: grey;
+	text-align: center;
+}
+.output-box{
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	background: lightblue;
+	text-align: center;
+}
+#information{
+	display: none;
+	color: red;
+	font-weight: bold;
+}
+#day, #month, #year, #sex{
+	font-weight: bold;
+}
