@@ -56,21 +56,8 @@ span:nth-child(3) {
 	text-align: left;
 }
 
-.button {
-    background-color: white;;
-    color: black;
-    border: 2px solid black;
-    padding: 4px 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: black;
-    color: white;
+@media only screen and (max-width: 1056px) {
+    .biggerCol {
+        height: 44px;
+    }
 }
