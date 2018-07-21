@@ -1,24 +1,50 @@
-.input-box{
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.input-box, .bottom-box {
 	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 	background: grey;
 	text-align: center;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px -2px rgba(0,0,0,0.75);
+	margin-bottom: 10px;
 }
-.output-box{
-	padding: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+
+.bottom-box {
 	background: lightblue;
-	text-align: center;
 }
-#information{
+
+#information {
 	display: none;
 	color: red;
 	font-weight: bold;
 }
-#day, #month, #year, #sex{
+
+#day, #month, #year, #sex {
 	font-weight: bold;
+}
+
+span:nth-child(2), span:first-child {
+	background: white;
+	border-radius: 10px;
+	padding: 5px 10px 5px 10px;
+	width: 40%;
+	min-height: 22px;
+	display: inline-block;
+}
+span:nth-child(2) {
+	float: right;
+}
+
+.output-box{
+	width: 50%;
+	margin: auto;
+	text-align: left;
+}
+
+.chuj{
+	width: 160px;
 }
