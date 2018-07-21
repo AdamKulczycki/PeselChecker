@@ -5,17 +5,31 @@
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
-	<div class = "input-box">
+	<div class="input-box">
 		<h1>Check Your PESEL</h1>
 		<input placeholder="PESEL" id="input"></input>
-		<button type="button" id="button">Click Me!</button>
+		<button type="button" id="button">Check!</button>
 	</div>
-	<div class = "output-box">
-		Day of birth: <p id="day"></p>
-		Month of birth: <p id="month"></p>
-		Year of birth: <p id="year"></p>
-		Sex: <p id="sex"></p>
-		<p id="information">INPUT OR CHECKSUM IS INCORRECT <br> Remember: PESEL has 11 digits</p>
+	<div class="bottom-box">
+		<div class="output-box">
+			<p class="dayBox">
+				<span>Day of birth:</span>
+				<span id="day"></span>
+			</p>
+			<p class="monthBox">
+				<span>Month of birth:</span> 
+				<span id="month"></span>
+			</p>
+			<p class="yearBox">
+				<span>Year of birth:</span> 
+				<span id="year"></span>
+			</p>
+			<p class="sexBox">
+				<span>Sex:</span> 
+				<span id="sex"></span>
+			</p>
+			<span id="information">INPUT OR CHECKSUM IS INCORRECT <br> Remember: PESEL has 11 digits</span>
+		</div>
 	</div>
 	<script src="script.js"></script>
 </body>
