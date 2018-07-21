@@ -13,6 +13,16 @@ body {
 	margin-bottom: 10px;
 }
 
+.input-box {
+	padding-bottom: 30px;
+}
+
+.input {
+	padding: 3px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
 .bottom-box {
 	background: lightblue;
 }
@@ -27,7 +37,7 @@ body {
 	font-weight: bold;
 }
 
-span:nth-child(2), span:first-child {
+span:nth-child(3), span:first-child {
 	background: white;
 	border-radius: 10px;
 	padding: 5px 10px 5px 10px;
@@ -35,16 +45,23 @@ span:nth-child(2), span:first-child {
 	min-height: 22px;
 	display: inline-block;
 }
-span:nth-child(2) {
+
+span:nth-child(3) {
 	float: right;
 }
 
-.output-box{
+.output-box {
 	width: 50%;
 	margin: auto;
 	text-align: left;
 }
 
-.chuj{
-	width: 160px;
+@media only screen and (max-width: 1056px) {
+    .biggerCol {
+        height: 44px;
+	}
+	.biggerColon {
+		position: relative;
+    	top: -16px;
+	}
 }
