@@ -2,30 +2,34 @@
 <html>
 <head>
 	<title>PeselChecker</title>
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="main.css"
 </head>
 <body>
 	<div class="input-box">
 		<h1>Check Your PESEL</h1>
-		<input placeholder="PESEL" id="input"></input>
-		<button type="button" id="button">Check!</button>
+		<input placeholder="PESEL" class="input" id="input"></input>
+		<button type="button" class="button" id="button">Check!</button>
 	</div>
 	<div class="bottom-box">
 		<div class="output-box">
 			<p class="dayBox">
-				<span>Day of birth:</span>
+				<span>Day of birth</span>
+				<span>:</span>
 				<span id="day"></span>
 			</p>
 			<p class="monthBox">
-				<span>Month of birth:</span> 
+				<span>Month of birth</span>
+				<span>:</span>
 				<span id="month"></span>
 			</p>
 			<p class="yearBox">
-				<span>Year of birth:</span> 
+				<span>Year of birth</span>
+				<span>:</span>
 				<span id="year"></span>
 			</p>
 			<p class="sexBox">
-				<span>Sex:</span> 
+				<span>Sex</span>
+				<span>:</span>
 				<span id="sex"></span>
 			</p>
 			<span id="information">INPUT OR CHECKSUM IS INCORRECT <br> Remember: PESEL has 11 digits</span>
