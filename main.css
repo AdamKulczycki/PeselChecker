@@ -50,7 +50,7 @@ span:nth-child(3) {
 	float: right;
 }
 
-.output-box{
+.output-box {
 	width: 50%;
 	margin: auto;
 	text-align: left;
@@ -61,7 +61,7 @@ span:nth-child(3) {
         height: 44px;
 	}
 	.biggerColon {
-		position:relative;
-    	top:-16px;
+		position: relative;
+    	top: -16px;
 	}
 }
